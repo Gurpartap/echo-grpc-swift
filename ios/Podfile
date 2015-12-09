@@ -1,0 +1,9 @@
+source "https://github.com/CocoaPods/Specs.git"
+platform :ios, "8.0"
+
+use_frameworks!
+inhibit_all_warnings!
+
+pod "Protobuf", "~> 3.0.0-alpha-4.1"
+pod "gRPC", git: "https://github.com/grpc/grpc"
+pod "EchoSDK", path: "../proto"

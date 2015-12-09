@@ -1,0 +1,50 @@
+PODS:
+  - BoringSSL (1.0)
+  - EchoSDK (0.0.1):
+    - EchoSDK/Messages (= 0.0.1)
+    - EchoSDK/Services (= 0.0.1)
+  - EchoSDK/Messages (0.0.1):
+    - Protobuf
+  - EchoSDK/Services (0.0.1):
+    - EchoSDK/Messages
+    - gRPC
+  - gRPC (0.12.0):
+    - gRPC/C-Core (= 0.12.0)
+    - gRPC/GRPCClient (= 0.12.0)
+    - gRPC/ProtoRPC (= 0.12.0)
+    - gRPC/RxLibrary (= 0.12.0)
+  - gRPC/C-Core (0.12.0):
+    - BoringSSL (~> 1.0)
+  - gRPC/GRPCClient (0.12.0):
+    - gRPC/C-Core
+    - gRPC/RxLibrary
+  - gRPC/ProtoRPC (0.12.0):
+    - gRPC/GRPCClient
+    - gRPC/RxLibrary
+    - Protobuf (~> 3.0.0-alpha-4)
+  - gRPC/RxLibrary (0.12.0)
+  - Protobuf (3.0.0-alpha-4.1)
+
+DEPENDENCIES:
+  - EchoSDK (from `../proto`)
+  - gRPC (from `https://github.com/grpc/grpc`)
+  - Protobuf (~> 3.0.0-alpha-4.1)
+
+EXTERNAL SOURCES:
+  EchoSDK:
+    :path: "../proto"
+  gRPC:
+    :git: https://github.com/grpc/grpc
+
+CHECKOUT OPTIONS:
+  gRPC:
+    :commit: 248904afadfc8eb987d51abbb7f8ea216f548891
+    :git: https://github.com/grpc/grpc
+
+SPEC CHECKSUMS:
+  BoringSSL: 2f8ab6b55f82b0ae2dabb9796add3a46e27db336
+  EchoSDK: 990c2ecc2b8f848066966934b36606d83f7d656a
+  gRPC: 93a1abf103497bfde65b898dd0f74cc2de0e97cb
+  Protobuf: a0f3b369ce888d47735a5ec1c40b1bc31cbad46b
+
+COCOAPODS: 0.39.0
