@@ -1,0 +1,6 @@
+framework module EchoSDK {
+  umbrella header "EchoSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

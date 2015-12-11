@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		196F293B2302EA3B24EF97FD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4718347F64EDE6A2D7421E4B /* Pods.framework */; };
+		493CEE89F052CD0DE0167F53 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38FF3D0968BA303989DBF5 /* Pods.framework */; };
 		AEE2EB1A1C17DEF3002E73C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2EB191C17DEF3002E73C5 /* AppDelegate.swift */; };
 		AEE2EB1C1C17DEF3002E73C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2EB1B1C17DEF3002E73C5 /* ViewController.swift */; };
 		AEE2EB1F1C17DEF3002E73C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE2EB1D1C17DEF3002E73C5 /* Main.storyboard */; };
@@ -17,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		220F6F4B422EBC6BFC7F437C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		4718347F64EDE6A2D7421E4B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		685589B623F9DF0FF0F851AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AEE2EB161C17DEF3002E73C5 /* EchoClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE2EB191C17DEF3002E73C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		AEE2EB201C17DEF3002E73C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE2EB231C17DEF3002E73C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE2EB251C17DEF3002E73C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD38FF3D0968BA303989DBF5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196F293B2302EA3B24EF97FD /* Pods.framework in Frameworks */,
+				493CEE89F052CD0DE0167F53 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		E8FD73AD0C95DB3623C33E20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4718347F64EDE6A2D7421E4B /* Pods.framework */,
+				BD38FF3D0968BA303989DBF5 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

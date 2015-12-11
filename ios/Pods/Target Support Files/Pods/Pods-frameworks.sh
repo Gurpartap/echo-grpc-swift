@@ -85,11 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/BoringSSL.framework"
+  install_framework "Pods/EchoSDK.framework"
   install_framework "Pods/Protobuf.framework"
   install_framework "Pods/gRPC.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/BoringSSL.framework"
+  install_framework "Pods/EchoSDK.framework"
   install_framework "Pods/Protobuf.framework"
   install_framework "Pods/gRPC.framework"
 fi

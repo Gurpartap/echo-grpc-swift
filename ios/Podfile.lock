@@ -38,13 +38,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   gRPC:
-    :commit: 248904afadfc8eb987d51abbb7f8ea216f548891
+    :commit: c54f88ee8d39e2681d2a014bf245ee6b66d4a21c
     :git: https://github.com/grpc/grpc
 
 SPEC CHECKSUMS:
   BoringSSL: 2f8ab6b55f82b0ae2dabb9796add3a46e27db336
-  EchoSDK: 990c2ecc2b8f848066966934b36606d83f7d656a
-  gRPC: 93a1abf103497bfde65b898dd0f74cc2de0e97cb
+  EchoSDK: 5670e9d66c5309976ca268da6eca0c423fb48261
+  gRPC: 3cf84f05f3bcae9adb0563d6a57723d2d38e0fcf
   Protobuf: a0f3b369ce888d47735a5ec1c40b1bc31cbad46b
 
 COCOAPODS: 0.39.0

@@ -6,15 +6,15 @@
     "ios": "7.1",
     "osx": "10.9"
   },
-  "prepare_command": "mkdir -p ../EchoClient/Pods/EchoSDK\nprotoc -I . --objc_out=../EchoClient/Pods/EchoSDK --objcgrpc_out=../EchoClient/Pods/EchoSDK ./*.proto",
+  "prepare_command": "mkdir -p Pods/EchoSDK\nprotoc -I . --objc_out=Pods/EchoSDK --objcgrpc_out=Pods/EchoSDK ./*.proto",
   "subspecs": [
     {
       "name": "Messages",
       "source_files": [
-        "../EchoClient/Pods/EchoSDK/*.pbobjc.{h,m}",
-        "../EchoClient/Pods/EchoSDK/**/*.pbobjc.{h,m}"
+        "Pods/EchoSDK/*.pbobjc.{h,m}",
+        "Pods/EchoSDK/**/*.pbobjc.{h,m}"
       ],
-      "header_mappings_dir": "../EchoClient/Pods/EchoSDK",
+      "header_mappings_dir": "Pods/EchoSDK",
       "requires_arc": false,
       "dependencies": {
         "Protobuf": [
@@ -25,10 +25,10 @@
     {
       "name": "Services",
       "source_files": [
-        "../EchoClient/Pods/EchoSDK/*.pbrpc.{h,m}",
-        "../EchoClient/Pods/EchoSDK/**/*.pbrpc.{h,m}"
+        "Pods/EchoSDK/*.pbrpc.{h,m}",
+        "Pods/EchoSDK/**/*.pbrpc.{h,m}"
       ],
-      "header_mappings_dir": "../EchoClient/Pods/EchoSDK",
+      "header_mappings_dir": "Pods/EchoSDK",
       "requires_arc": true,
       "dependencies": {
         "gRPC": [
