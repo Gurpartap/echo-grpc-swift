@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   src = "."
 
   # Directory where the generated files will be placed.
-  dir = "../EchoClient/Pods/" + s.name
+  dir = "Pods/" + s.name
 
   # Run protoc with the Objective-C and gRPC plugins to generate protocol messages and gRPC clients.
   s.prepare_command = <<-CMD
